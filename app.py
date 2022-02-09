@@ -116,7 +116,7 @@ gr.Interface(
     outputs=label, 
     examples = [["idli.jpg"], ["naan.jpg"]],
     theme = "huggingface",
-    title = "DesiVisionNet: Desi Food Vision with ResNet",
+    title = "DesiVisionNet: Indian Food Vision with ResNet",
     description = "This is a Gradio demo for multi-class image classification of Indian food amongst 20 classes. The DesiVisionNet achieved 90% accuracy on our test dataset, performing well for a relatively efficient model. See the GitHub project page for detailed information below. Here, we provide a demo for real-world food classification. To use it, simply upload your image, or click one of the examples to load them.",
     article = article
 ).launch()
