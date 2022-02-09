@@ -1,7 +1,7 @@
 
 # DesiVisionNet: Indian Food Vision with ResNet
 
-The DesiVisionNet is a multi-class image classification model that identifies Indian food of various types. It's implemented in PyTorch after finetuning of the `ResNet50` model. The model achieved `90% accuracy` on the Test set taken from our Kaggle Dataset [here](https://www.kaggle.com/l33tc0d3r/indian-food-classification). For deployment, we built a `Gradio app` and hosted it on Hugging Face Spaces. *You can use it by going to the HF Spaces page and either uploading your own image or clicking on the examples to load them.*
+The DesiVisionNet is a multi-class image classification model that identifies Indian food of various types. It's implemented in PyTorch after finetuning of `ResNet50` over 6700 images. The model achieved `90% accuracy` on the Test set taken from our Kaggle Dataset [here](https://www.kaggle.com/l33tc0d3r/indian-food-classification). For deployment, we built a `Gradio app` and hosted it on Hugging Face Spaces. *You can use it by going to the HF Spaces page and either uploading your own image or clicking on the examples to load them.*
 
 
 
